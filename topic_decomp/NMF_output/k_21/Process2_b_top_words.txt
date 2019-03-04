@@ -1,0 +1,232 @@
+Here are the most important 10 words for each topic
+Topic number 0 :
+	produire            	4.549
+	utilis              	0.119
+	recevoir            	0.116
+	tre                 	0.092
+	connaître           	0.079
+	correspondre        	0.075
+	décevoir            	0.075
+	déjà                	0.073
+	coiffeur            	0.065
+	connai              	0.065
+Topic number 1 :
+	sentir              	3.431
+	tre                 	0.084
+	frais               	0.040
+	journée             	0.034
+	huiler              	0.031
+	tenu                	0.028
+	joli                	0.026
+	hydrater            	0.022
+	hésiter             	0.022
+	travail             	0.021
+Topic number 2 :
+	recommander         	2.990
+	vivement            	0.164
+	rapide              	0.075
+	fortement           	0.053
+	livraison           	0.049
+	parfait             	0.031
+	problème            	0.031
+	hydrater            	0.027
+	gamme               	0.027
+	briller             	0.026
+Topic number 3 :
+	cheveu              	3.597
+	sec                 	0.688
+	shampoing           	0.641
+	doux                	0.537
+	blanc               	0.445
+	nourrir             	0.329
+	blond               	0.294
+	shampooing          	0.293
+	soin                	0.262
+	abîmer              	0.227
+Topic number 4 :
+	agréable            	3.165
+	texture             	0.740
+	crème               	0.163
+	senteur             	0.155
+	appliquer           	0.132
+	frais               	0.109
+	gras                	0.099
+	facile              	0.098
+	porter              	0.095
+	hydrater            	0.093
+Topic number 5 :
+	prix                	2.570
+	rapport             	1.442
+	petit               	0.217
+	intéresser          	0.176
+	imbattable          	0.137
+	raisonnable         	0.125
+	attractif           	0.107
+	correct             	0.107
+	qualite             	0.102
+	livraison           	0.099
+Topic number 6 :
+	parfum              	2.944
+	eau                 	0.152
+	léger               	0.133
+	marquer             	0.078
+	grand               	0.075
+	joli                	0.074
+	flacon              	0.060
+	envier              	0.050
+	frais               	0.047
+	noter               	0.044
+Topic number 7 :
+	conforme            	2.697
+	attente             	1.301
+	description         	0.485
+	livraison           	0.216
+	correspondre        	0.179
+	recevoir            	0.176
+	rapide              	0.175
+	attent              	0.170
+	couleur             	0.110
+	photo               	0.102
+Topic number 8 :
+	parfaire            	3.160
+	coiffeur            	0.172
+	teindre             	0.129
+	rapide              	0.084
+	cil                 	0.081
+	habitude            	0.079
+	recevoir            	0.075
+	blond               	0.073
+	sec                 	0.068
+	masqu               	0.067
+Topic number 9 :
+	tr                  	2.725
+	agreabl             	0.181
+	frais               	0.123
+	contenter           	0.089
+	satisfaire          	0.064
+	rapide              	0.061
+	mascara             	0.049
+	sen                 	0.048
+	qualite             	0.048
+	tre                 	0.041
+Topic number 10 :
+	adorer              	2.959
+	bel                 	0.085
+	fille               	0.066
+	enfant              	0.064
+	quantité            	0.058
+	fil                 	0.057
+	gras                	0.045
+	préférer            	0.044
+	lasser              	0.041
+	anner               	0.039
+Topic number 11 :
+	peau                	2.171
+	doux                	1.823
+	hydrater            	0.381
+	crème               	0.199
+	teindre             	0.197
+	fondre              	0.150
+	utilisation         	0.144
+	pénétrer            	0.124
+	visage              	0.112
+	gras                	0.090
+Topic number 12 :
+	plaire              	2.976
+	couleur             	0.458
+	trouver             	0.370
+	petit               	0.258
+	voir                	0.239
+	bel                 	0.236
+	mascara             	0.219
+	prendre             	0.205
+	acheter             	0.199
+	coiffeur            	0.197
+Topic number 13 :
+	aimer               	2.555
+	crème               	0.146
+	texture             	0.119
+	marqu               	0.077
+	masqu               	0.064
+	offrir              	0.063
+	régulièrement       	0.055
+	couleur             	0.049
+	senteur             	0.046
+	surpris             	0.044
+Topic number 14 :
+	qualité             	2.790
+	excellent           	0.144
+	joli                	0.132
+	bel                 	0.105
+	couleur             	0.073
+	shampooing          	0.067
+	professionnel       	0.066
+	oréal               	0.051
+	maquillage          	0.042
+	là                  	0.042
+Topic number 15 :
+	top                 	2.504
+	mascara             	0.114
+	livraison           	0.091
+	sec                 	0.082
+	cil                 	0.076
+	tenu                	0.072
+	masqu               	0.071
+	achat               	0.053
+	rapide              	0.049
+	ravir               	0.047
+Topic number 16 :
+	satisfait           	2.666
+	achat               	0.193
+	utilis              	0.117
+	année               	0.085
+	crème               	0.064
+	couleur             	0.060
+	fille               	0.054
+	livraison           	0.053
+	rapide              	0.048
+	oréal               	0.041
+Topic number 17 :
+	odeur               	2.467
+	agreabl             	0.113
+	sucrer              	0.111
+	joli                	0.097
+	texture             	0.091
+	flacon              	0.089
+	léger               	0.085
+	fort                	0.071
+	décevoir            	0.068
+	impeccable          	0.068
+Topic number 18 :
+	efficace            	2.429
+	semaine             	0.098
+	utilisation         	0.082
+	crème               	0.066
+	trouver             	0.056
+	déjaunir            	0.055
+	temps               	0.049
+	résultat            	0.048
+	blond               	0.048
+	masquer             	0.044
+Topic number 19 :
+	utiliser            	2.246
+	facile              	0.745
+	utilisation         	0.287
+	an                  	0.233
+	appliquer           	0.223
+	semaine             	0.214
+	résultat            	0.211
+	déjà                	0.205
+	année               	0.173
+	application         	0.138
+Topic number 20 :
+	exceller            	2.450
+	rapport             	0.113
+	ravir               	0.106
+	dentifrice          	0.067
+	homme               	0.055
+	falloir             	0.046
+	volume              	0.043
+	soin                	0.042
+	pénétrer            	0.038
+	conseil             	0.037
