@@ -1,0 +1,2 @@
+# TrendMeter
+Kite project
