@@ -99,6 +99,7 @@ def print_pos_tags(tags):
 
 # LOAD THE CSV FILE AND POS TAG
 import pandas as pd
+import numpy as np
 #variables
 data_path= PATH + "/data.csv" #set the path that we are going to read through
 tagged_coms=[] #open up an empty array into which we will store our tagged coms
@@ -118,6 +119,8 @@ for ind in range(numb_com):
     if type(com)==str:
         text = get_nltk_text(com,tokenizer)
         tagged_coms.append(pos_tag(text,pos_tagger))
+    else:
+        tagged_coms.append(np.NaN)
 
 #Add the result to the database (in csv format)
 df = pd.DataFrame({'pos_tagged_coms':tagged_coms})
