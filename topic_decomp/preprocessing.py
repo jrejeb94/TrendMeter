@@ -13,8 +13,9 @@ import re
 from gensim.models import Phrases
 from gensim.models.word2vec import LineSentence
 import spacy
+
 from french_lefff_lemmatizer.french_lefff_lemmatizer import FrenchLefffLemmatizer
-# from spacy_lefff import POSTagger
+from spacy_lefff import POSTagger
 
 nlp = spacy.load('fr')
 # pos = POSTagger()
@@ -115,7 +116,6 @@ def print_too_long_words(column):
             if len(w) > 20 and w.isalpha():
                 print(w)
 
-
 def convert_pos(pos_tag):
     """
     converts the pos tag from spacy_lefff POS tagger to spacy POS tagger
@@ -126,7 +126,9 @@ def convert_pos(pos_tag):
         return 'a'
     elif pos_tag == "NC":
         return 'n'
-    elif pos_tag == "V" or pos_tag == "VINF":
+    elif pos_tag == "NOUN":
+        return 'n'
+    elif pos_tag == "VERB" or pos_tag == "VINF":
         return 'v'
     elif pos_tag == "ADV":
         return 'r'
@@ -141,6 +143,18 @@ def punct_space(token):
     """
     return token.is_punct or token.is_space
 
+#
+# def lemmatized_sentence_corpus(filename):
+#     """
+#     generator function to use spaCy to parse reviews,
+#     lemmatize the text, and yield sentences
+#     """
+#     lemmatizer = FrenchLefffLemmatizer()
+#     for parsed_review in nlp.pipe(read_line_review_txt(filename), batch_size=10000, n_threads=4):
+#         yield (u' '.join(
+#             # [lemmatizer.lemmatize(str(token)) for token in parsed_review]) + u'\r')
+#             [token.lemma_ for token in parsed_review]) + u'\r')
+
 
 def lemmatized_sentence_corpus(filename):
     """
@@ -150,8 +164,8 @@ def lemmatized_sentence_corpus(filename):
     lemmatizer = FrenchLefffLemmatizer()
     for parsed_review in nlp.pipe(read_line_review_txt(filename), batch_size=10000, n_threads=4):
         yield (u' '.join(
-            # [lemmatizer.lemmatize(str(token)) for token in parsed_review]) + u'\r')
-            [token.lemma_ for token in parsed_review]) + u'\r')
+            [lemmatizer.lemmatize(token.text, convert_pos(token.pos_)) for token in parsed_review]) + u'\r')
+
 
 def pos_to_keep(filename, list_pos):
     """
