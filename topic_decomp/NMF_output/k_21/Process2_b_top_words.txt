@@ -1,232 +1,232 @@
 Here are the most important 10 words for each topic
 Topic number 0 :
-	recommander         	3.778
-	vivement            	0.190
-	fortement           	0.070
-	briller             	0.035
-	problème            	0.034
-	gamme               	0.030
-	tient               	0.027
-	attente             	0.026
-	mascara             	0.025
-	coiffeuse           	0.024
+	recommander         	3.762
+	vivement            	0.193
+	fortement           	0.069
+	gamme               	0.038
+	briller             	0.036
+	problème            	0.033
+	attente             	0.027
+	coiffeuse           	0.026
+	mèches              	0.024
+	présentation        	0.023
 Topic number 1 :
-	agréable            	4.461
-	texture             	0.724
-	frais               	0.244
+	agréable            	4.455
+	texture             	0.729
+	frais               	0.243
 	senteur             	0.187
-	trés                	0.145
-	porter              	0.125
-	gras                	0.105
-	eau                 	0.096
+	trés                	0.144
+	porter              	0.124
+	gras                	0.101
 	discret             	0.094
+	eau                 	0.092
 	sensation           	0.090
 Topic number 2 :
-	prix                	2.369
-	rapport             	1.340
-	petit               	0.209
+	prix                	2.377
+	rapport             	1.345
+	petit               	0.185
 	intéressant         	0.149
-	imbattable          	0.129
-	exceller            	0.116
+	imbattable          	0.131
+	exceller            	0.117
 	raisonnable         	0.109
 	qualite             	0.096
-	correct             	0.095
+	correct             	0.094
 	attractif           	0.092
 Topic number 3 :
-	parfait             	2.806
-	coiffeur            	0.106
+	parfait             	2.799
+	coiffeur            	0.086
 	teint               	0.085
-	sec                 	0.065
-	tenu                	0.064
-	habitude            	0.058
-	fin                 	0.049
-	journée             	0.041
-	parfaitement        	0.039
-	cil                 	0.037
+	tenu                	0.062
+	sec                 	0.056
+	habitude            	0.056
+	fin                 	0.042
+	blond               	0.039
+	pompe               	0.037
+	parfaitement        	0.036
 Topic number 4 :
-	conforme            	2.333
-	attente             	1.399
-	description         	0.373
-	correspondre        	0.156
-	recevoir            	0.127
+	conforme            	2.345
+	attente             	1.404
+	description         	0.379
+	correspondre        	0.158
+	recevoir            	0.124
 	photo               	0.078
-	rapidement          	0.075
-	commande            	0.073
-	achat               	0.070
+	rapidement          	0.073
+	commande            	0.071
+	achat               	0.069
 	descriptif          	0.061
 Topic number 5 :
-	peau                	3.158
-	gras                	0.407
-	teint               	0.374
-	hydrate             	0.368
-	douce               	0.272
-	fond                	0.249
-	sec                 	0.222
-	texture             	0.193
-	pénétrer            	0.175
-	hydrater            	0.160
+	doux                	3.266
+	soyeux              	0.259
+	brillant            	0.142
+	briller             	0.127
+	utilisation         	0.114
+	nourrir             	0.107
+	souple              	0.101
+	graisser            	0.091
+	démêler             	0.087
+	huile               	0.087
 Topic number 6 :
-	adore               	2.668
-	eau                 	0.070
+	adore               	2.753
+	eau                 	0.069
 	fille               	0.067
-	fils                	0.051
-	préféré             	0.047
-	utilise             	0.043
-	lasser              	0.038
-	années              	0.035
-	tient               	0.031
-	mascara             	0.031
+	fils                	0.057
+	préféré             	0.048
+	lasser              	0.039
+	description         	0.034
+	années              	0.032
+	agreable            	0.030
+	utilise             	0.029
 Topic number 7 :
-	satisfaite          	2.908
-	utilise             	0.197
-	achat               	0.192
-	année               	0.093
-	fille               	0.059
-	tient               	0.049
-	huile               	0.045
-	moment              	0.044
+	satisfaite          	2.869
+	achat               	0.188
+	utilise             	0.173
+	année               	0.088
+	fille               	0.056
+	hydrate             	0.046
 	entièrement         	0.044
-	job                 	0.040
-Topic number 8 :
-	qualité             	3.599
-	professionnel       	0.088
-	shampooing          	0.085
-	joli                	0.060
-	oréal               	0.059
-	là                  	0.049
-	maquillage          	0.048
-	pratique            	0.038
+	moment              	0.041
+	job                 	0.039
 	huile               	0.037
+Topic number 8 :
+	qualité             	3.754
+	professionnel       	0.093
+	joli                	0.061
+	oréal               	0.060
+	maquillage          	0.050
+	là                  	0.049
+	pratique            	0.042
+	blanc               	0.037
 	rapport             	0.036
+	coloration          	0.036
 Topic number 9 :
-	odeur               	3.452
-	texture             	0.271
-	agreable            	0.167
-	sucrer              	0.128
-	flacon              	0.115
-	léger               	0.108
-	fort                	0.097
-	joli                	0.096
-	impeccable          	0.084
-	quantité            	0.078
+	odeur               	3.237
+	texture             	0.249
+	agreable            	0.156
+	sucrer              	0.120
+	flacon              	0.106
+	léger               	0.101
+	joli                	0.090
+	fort                	0.089
+	impeccable          	0.079
+	sublime             	0.073
 Topic number 10 :
-	utiliser            	3.665
-	an                  	0.387
-	foi                 	0.371
-	déjà                	0.303
-	année               	0.239
-	semaine             	0.214
-	cire                	0.198
-	moment              	0.148
-	instant             	0.112
-	agreable            	0.097
+	utiliser            	3.537
+	an                  	0.359
+	déjà                	0.265
+	foi                 	0.243
+	année               	0.219
+	semaine             	0.171
+	cire                	0.165
+	moment              	0.133
+	blanc               	0.109
+	instant             	0.101
 Topic number 11 :
-	excellent           	2.557
+	excellent           	2.604
 	ravie               	0.061
 	texture             	0.058
-	dentifrice          	0.056
+	dentifrice          	0.057
 	homme               	0.054
 	tenu                	0.042
-	long                	0.038
-	commande            	0.037
-	huile               	0.034
-	bouclés             	0.034
+	commande            	0.035
+	bouclés             	0.033
+	creme               	0.032
+	huile               	0.031
 Topic number 12 :
 	top                 	2.781
-	sec                 	0.119
-	mascara             	0.086
-	achat               	0.057
-	masque              	0.049
-	démêler             	0.046
-	dommage             	0.045
-	pratique            	0.044
-	amazon              	0.042
-	ravie               	0.041
+	sec                 	0.107
+	pratique            	0.056
+	achat               	0.053
+	blond               	0.051
+	dommage             	0.047
+	démêler             	0.044
+	amazon              	0.040
+	ravie               	0.039
+	connaissais         	0.037
 Topic number 13 :
-	aime                	2.624
-	marque              	0.140
-	texture             	0.098
-	offrir              	0.077
-	régulièrement       	0.061
-	senteur             	0.059
-	surprise            	0.051
-	pratique            	0.051
-	énormément          	0.045
-	fleurir             	0.042
+	aime                	2.549
+	marque              	0.124
+	texture             	0.090
+	offrir              	0.075
+	régulièrement       	0.060
+	senteur             	0.057
+	pratique            	0.052
+	surprise            	0.049
+	énormément          	0.043
+	fleurir             	0.041
 Topic number 14 :
-	doux                	3.056
-	soyeux              	0.245
-	brillant            	0.126
-	utilisation         	0.122
-	briller             	0.119
-	nourrir             	0.094
-	souple              	0.090
-	graisser            	0.088
-	huile               	0.086
-	démêler             	0.084
+	efficace            	3.404
+	blanc               	0.106
+	blond               	0.086
+	gris                	0.064
+	dur                 	0.063
+	fin                 	0.060
+	déjaunissant        	0.058
+	utilisation         	0.055
+	lisse               	0.055
+	jaune               	0.054
 Topic number 15 :
-	efficace            	2.761
-	dur                 	0.058
-	fin                 	0.056
-	semaine             	0.046
-	longueur            	0.046
-	passer              	0.046
-	déjaunissant        	0.045
-	lisse               	0.044
-	gommage             	0.043
-	trouve              	0.039
+	peau                	2.696
+	gras                	0.339
+	teint               	0.321
+	hydrate             	0.314
+	douce               	0.232
+	fond                	0.215
+	texture             	0.161
+	pénétrer            	0.148
+	sec                 	0.137
+	lisse               	0.133
 Topic number 16 :
-	produire            	2.222
-	recevoir            	0.173
-	déjà                	0.168
-	connais             	0.131
-	gras                	0.125
-	commander           	0.123
-	déçu                	0.123
-	exellent            	0.121
-	contente            	0.113
-	acheter             	0.105
+	produire            	2.175
+	déjà                	0.155
+	connais             	0.128
+	recevoir            	0.125
+	exellent            	0.118
+	déçu                	0.118
+	gras                	0.114
+	commander           	0.105
+	contente            	0.102
+	acheter             	0.087
 Topic number 17 :
-	shampoing           	1.577
-	masque              	0.887
-	sec                 	0.566
-	utilise             	0.558
-	blond               	0.455
-	soin                	0.452
-	foi                 	0.420
-	blanc               	0.383
-	shampooing          	0.325
-	mèches              	0.317
+	couleur             	1.963
+	tient               	0.352
+	blond               	0.253
+	blanc               	0.225
+	lèvre               	0.216
+	tenu                	0.179
+	correspondre        	0.173
+	rouge               	0.161
+	joli                	0.156
+	magnifique          	0.152
 Topic number 18 :
-	rapide              	1.757
-	livraison           	1.559
-	envoi               	0.195
-	temps               	0.137
-	emballer            	0.094
-	impeccable          	0.090
-	amazon              	0.090
-	soigner             	0.085
-	résultat            	0.083
-	correct             	0.080
+	rapide              	1.675
+	livraison           	1.484
+	envoi               	0.187
+	temps               	0.103
+	emballer            	0.088
+	impeccable          	0.084
+	amazon              	0.084
+	soigner             	0.080
+	correct             	0.077
+	prime               	0.067
 Topic number 19 :
-	facile              	1.628
-	utilisation         	0.820
-	appliquer           	0.748
-	application         	0.352
-	mettre              	0.327
-	mascara             	0.312
-	résultat            	0.308
-	pratique            	0.266
-	teint               	0.206
-	journée             	0.181
+	facile              	1.522
+	utilisation         	0.768
+	appliquer           	0.673
+	application         	0.291
+	pratique            	0.217
+	mettre              	0.157
+	teint               	0.144
+	coiffer             	0.118
+	texture             	0.111
+	résultat            	0.090
 Topic number 20 :
-	couleur             	2.098
-	tient               	0.460
-	lèvre               	0.241
-	tenu                	0.207
-	journée             	0.204
-	correspondre        	0.196
-	rouge               	0.178
-	magnifique          	0.168
-	joli                	0.159
-	blond               	0.154
+	masque              	0.837
+	sec                 	0.551
+	utilise             	0.533
+	foi                 	0.495
+	mascara             	0.483
+	résultat            	0.461
+	voir                	0.371
+	soin                	0.329
+	petit               	0.323
+	long                	0.314
