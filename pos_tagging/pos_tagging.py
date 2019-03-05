@@ -67,24 +67,7 @@ def stem_words(words):
 from nltk.tag.stanford import StanfordPOSTagger #Get the Part of Speech tagger from NLP at Stanford, python module that interacts with Java
 nltk.internals.config_java("/usr/bin/java", options='-mx1000m',verbose=False) #set the path to java (note: i had to edit stanford.py and comment conflicting settings on lines 59 and 85
 
-tag_abbreviations = {
-                    'A': 'adjective',
-                    'Adv': 'adverb',
-                    'CC': 'coordinating conjunction',
-                    'Cl': 'weak clitic pronoun',
-                    'CS': 'subordinating conjunction',
-                    'D': 'determiner',
-                    'ET': 'foreign word',
-                    'I': 'interjection',
-                    'NC': 'common noun',
-                    'NP': 'proper noun',
-                    'P': 'preposition',
-                    'PREF': 'prefix',
-                    'PRO': 'strong pronoun',
-                    'V': 'verb',
-                    'PONCT': 'punctuation mark',
-                    'N': 'noun'}
-
+#tagset from C&C 29 tags check : http://french-postaggers.tiddlyspot.com/#[[CC%20Tagset]]
 def pos_tag(to_tag,pos_tagger):
     '''tag the tokens with part of speech; to_tag is the tags; model_path is the file path to the stanford POS tagger model; and jar_path to the Stanford POS tagger jar file'''
     tags = pos_tagger.tag(to_tag) #run the tagging algorithm on the tokenized raw text
