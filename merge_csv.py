@@ -9,10 +9,10 @@ def merge_csv(csv_list, col_list, newname):
     # Initialize empty dataframe
     merged_df = pd.DataFrame()
     for filename in csv_list:
-        to_merge = pd.read_csv(filename)
+        to_merge = pd.read_csv(filename, usecols = col_list)
 
         if(len(to_merge.columns) != len(col_list)):
-            print("Error: wrong number of columns")
+            print("Error: wrong number of columns for ", filename,". Only", len(to_merge.columns), "columns in this file.\n")
             return -1
         
         # Making sure that the columns are in the right order
