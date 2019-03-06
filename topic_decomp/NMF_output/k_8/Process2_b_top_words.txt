@@ -1,0 +1,89 @@
+Here are the most important 10 words for each topic
+Topic number 0 :
+	recommander         	3.597
+	vivement            	0.189
+	produire            	0.096
+	rapide              	0.085
+	excellent           	0.080
+	fortement           	0.068
+	livraison           	0.054
+	briller             	0.038
+	problème            	0.037
+	gamme               	0.035
+Topic number 1 :
+	agréable            	2.572
+	odeur               	2.197
+	texture             	0.654
+	efficace            	0.234
+	facile              	0.127
+	léger               	0.123
+	gras                	0.116
+	aime                	0.110
+	frais               	0.105
+	appliquer           	0.104
+Topic number 2 :
+	prix                	1.886
+	qualité             	1.432
+	rapport             	1.088
+	excellent           	0.260
+	petit               	0.151
+	intéressant         	0.109
+	imbattable          	0.099
+	exceller            	0.093
+	correct             	0.092
+	top                 	0.088
+Topic number 3 :
+	parfait             	2.643
+	teint               	0.123
+	sec                 	0.123
+	coiffeur            	0.117
+	couleur             	0.108
+	rapide              	0.103
+	livraison           	0.091
+	tenu                	0.082
+	utiliser            	0.075
+	blond               	0.071
+Topic number 4 :
+	conforme            	2.305
+	attente             	1.372
+	description         	0.371
+	livraison           	0.166
+	correspondre        	0.159
+	recevoir            	0.139
+	rapide              	0.136
+	photo               	0.079
+	commande            	0.077
+	rapidement          	0.076
+Topic number 5 :
+	doux                	2.180
+	peau                	1.508
+	utilisation         	0.207
+	soyeux              	0.175
+	gras                	0.158
+	teint               	0.145
+	shampoing           	0.144
+	sec                 	0.134
+	hydrate             	0.134
+	masque              	0.120
+Topic number 6 :
+	adore               	2.476
+	odeur               	0.150
+	produire            	0.098
+	eau                 	0.059
+	fille               	0.059
+	fils                	0.047
+	préféré             	0.045
+	agreable            	0.041
+	gras                	0.038
+	utilise             	0.036
+Topic number 7 :
+	produire            	1.505
+	satisfaite          	1.352
+	utiliser            	0.616
+	efficace            	0.451
+	utilise             	0.268
+	shampoing           	0.243
+	foi                 	0.234
+	résultat            	0.233
+	facile              	0.231
+	déjà                	0.213

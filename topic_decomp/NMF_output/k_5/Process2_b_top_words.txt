@@ -1,0 +1,56 @@
+Here are the most important 10 words for each topic
+Topic number 0 :
+	recommander         	3.383
+	vivement            	0.179
+	rapide              	0.083
+	fortement           	0.060
+	satisfaite          	0.056
+	livraison           	0.056
+	efficace            	0.051
+	gamme               	0.045
+	sec                 	0.040
+	blond               	0.038
+Topic number 1 :
+	prix                	2.511
+	qualité             	1.933
+	rapport             	1.466
+	petit               	0.217
+	satisfaite          	0.171
+	efficace            	0.164
+	intéressant         	0.139
+	imbattable          	0.128
+	coiffeur            	0.127
+	correct             	0.120
+Topic number 2 :
+	odeur               	2.629
+	texture             	0.384
+	efficace            	0.170
+	gras                	0.090
+	sucrer              	0.080
+	flacon              	0.079
+	léger               	0.079
+	quantité            	0.078
+	joli                	0.068
+	fort                	0.059
+Topic number 3 :
+	doux                	1.905
+	peau                	1.502
+	utilisation         	0.297
+	utiliser            	0.269
+	facile              	0.269
+	sec                 	0.241
+	gras                	0.224
+	texture             	0.209
+	teint               	0.207
+	satisfaite          	0.205
+Topic number 4 :
+	conforme            	2.279
+	attente             	1.345
+	description         	0.393
+	satisfaite          	0.267
+	livraison           	0.180
+	correspondre        	0.167
+	recevoir            	0.165
+	rapide              	0.152
+	achat               	0.091
+	commande            	0.086

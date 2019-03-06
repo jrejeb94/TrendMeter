@@ -13,13 +13,8 @@ import re
 from gensim.models import Phrases
 from gensim.models.word2vec import LineSentence
 import spacy
-
 from french_lefff_lemmatizer.french_lefff_lemmatizer import FrenchLefffLemmatizer
-from spacy_lefff import POSTagger
-
 nlp = spacy.load('fr')
-# pos = POSTagger()
-# nlp.add_pipe(pos, name='pos', after='parser')
 
 PATH = os.path.abspath(os.path.join(os.getcwd()))
 

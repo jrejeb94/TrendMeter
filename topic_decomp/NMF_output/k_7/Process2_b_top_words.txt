@@ -1,0 +1,78 @@
+Here are the most important 10 words for each topic
+Topic number 0 :
+	recommander         	3.401
+	vivement            	0.180
+	rapide              	0.082
+	fortement           	0.060
+	livraison           	0.054
+	gamme               	0.045
+	efficace            	0.041
+	sec                 	0.039
+	briller             	0.037
+	blond               	0.036
+Topic number 1 :
+	prix                	3.147
+	rapport             	1.816
+	petit               	0.305
+	intéressant         	0.192
+	imbattable          	0.167
+	raisonnable         	0.150
+	exceller            	0.146
+	correct             	0.129
+	coiffeur            	0.125
+	qualite             	0.123
+Topic number 2 :
+	odeur               	2.596
+	texture             	0.382
+	efficace            	0.174
+	gras                	0.091
+	sucrer              	0.079
+	léger               	0.079
+	flacon              	0.079
+	quantité            	0.078
+	joli                	0.067
+	fort                	0.059
+Topic number 3 :
+	doux                	1.999
+	peau                	1.558
+	utilisation         	0.289
+	facile              	0.253
+	gras                	0.226
+	sec                 	0.225
+	texture             	0.212
+	utiliser            	0.209
+	teint               	0.205
+	masque              	0.197
+Topic number 4 :
+	conforme            	2.296
+	attente             	1.356
+	description         	0.394
+	livraison           	0.173
+	correspondre        	0.166
+	recevoir            	0.165
+	rapide              	0.144
+	commande            	0.085
+	photo               	0.083
+	rapidement          	0.080
+Topic number 5 :
+	satisfaite          	2.418
+	efficace            	0.250
+	utilise             	0.234
+	utiliser            	0.190
+	achat               	0.154
+	couleur             	0.117
+	année               	0.111
+	résultat            	0.098
+	blond               	0.081
+	déjà                	0.077
+Topic number 6 :
+	qualité             	2.527
+	efficace            	0.202
+	professionnel       	0.071
+	utiliser            	0.058
+	sec                 	0.058
+	masque              	0.057
+	oréal               	0.051
+	blanc               	0.048
+	joli                	0.045
+	facile              	0.045
