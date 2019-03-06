@@ -5,10 +5,11 @@ def create_product(input, output):
     df = pd.read_csv(input, usecols = ['product_id', 'product_name', 'price', 'avg_mark', 'product_type'])
     size = df.size
 
-    #Add retailer_id column
-    retailer = {'retailer_id' : ['amazon_fr'] * size}
-    retailer = pd.DataFrame(data = retailer)
-    df = pd.concat([df, retailer], axis=1)
+    #Add retailer_id and client_id column
+    additional = {'retailer_id' : ['amazon_fr'] * size,\
+                  'client_id' : ["L'OREAL PARIS"] * size}
+    additional = pd.DataFrame(data = additional)
+    df = pd.concat([df, additional], axis=1)
 
     df.to_csv(output)
 
@@ -69,10 +70,10 @@ def create_consumer(input, output):
 
 
 if __name__ == "__main__":
-    products = "./loreal_products.csv"
+    products = "~/Documents/KITE/Scraping/loreal_products.csv"
     reviews = "./loreal_reviews.csv"
 
-    #create_product(products, "./product.csv")
+    create_product(products, "~/Documents/KITE/Scraping/product.csv")
     #create_retailer('amazon_fr', 'Amazon France')
     #create_review(reviews, './review.csv')
-    create_consumer(reviews, './consumer.csv') 
+    ##create_consumer(reviews, './consumer.csv') 
