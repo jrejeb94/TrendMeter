@@ -1,0 +1,254 @@
+Here are the most important 10 words for each topic
+Topic number 0 :
+	recommander         	3.478
+	vivement            	0.178
+	fortement           	0.059
+	gamme               	0.035
+	briller             	0.033
+	problème            	0.029
+	abîmer              	0.025
+	coiffeuse           	0.023
+	satisfait           	0.022
+	mèches              	0.021
+Topic number 1 :
+	prix                	3.769
+	rapport             	2.188
+	petit               	0.291
+	intéressant         	0.221
+	imbattable          	0.197
+	exceller            	0.176
+	raisonnable         	0.175
+	qualite             	0.147
+	correct             	0.139
+	attractif           	0.138
+Topic number 2 :
+	odeur               	2.728
+	sucrer              	0.085
+	quantité            	0.073
+	léger               	0.068
+	fort                	0.059
+	sublime             	0.056
+	impeccable          	0.050
+	flacon              	0.047
+	superbe             	0.046
+	joli                	0.041
+Topic number 3 :
+	peau                	3.036
+	hydrate             	0.312
+	teint               	0.269
+	douce               	0.267
+	fond                	0.175
+	hydrater            	0.154
+	pénétrer            	0.136
+	lisse               	0.123
+	donner              	0.113
+	sensible            	0.109
+Topic number 4 :
+	conforme            	2.462
+	attente             	1.475
+	description         	0.416
+	correspondre        	0.167
+	photo               	0.075
+	achat               	0.067
+	répondre            	0.063
+	descriptif          	0.061
+	attenter            	0.057
+	commande            	0.056
+Topic number 5 :
+	satisfaite          	3.231
+	achat               	0.187
+	année               	0.071
+	entièrement         	0.044
+	oréal               	0.043
+	hydrate             	0.042
+	moment              	0.042
+	job                 	0.041
+	déjà                	0.040
+	léger               	0.038
+Topic number 6 :
+	qualité             	3.245
+	professionnel       	0.078
+	oréal               	0.052
+	maquillage          	0.043
+	là                  	0.040
+	joli                	0.038
+	retrouver           	0.038
+	blanc               	0.036
+	huile               	0.034
+	coloration          	0.029
+Topic number 7 :
+	doux                	2.613
+	soyeux              	0.202
+	brillant            	0.110
+	briller             	0.095
+	utilisation         	0.081
+	souple              	0.075
+	nourrir             	0.071
+	graisser            	0.070
+	huile               	0.070
+	démêler             	0.069
+Topic number 8 :
+	utiliser            	2.384
+	an                  	0.218
+	déjà                	0.181
+	année               	0.153
+	jours               	0.146
+	semaine             	0.121
+	cire                	0.109
+	moment              	0.088
+	habitude            	0.072
+	instant             	0.063
+Topic number 9 :
+	efficace            	2.373
+	blanc               	0.062
+	fin                 	0.058
+	blond               	0.048
+	dur                 	0.046
+	semaine             	0.046
+	gris                	0.040
+	déjaunissant        	0.039
+	passer              	0.038
+	poser               	0.038
+Topic number 10 :
+	couleur             	2.368
+	blond               	0.309
+	blanc               	0.242
+	lèvre               	0.222
+	correspondre        	0.190
+	magnifique          	0.176
+	rouge               	0.175
+	tenu                	0.171
+	mèches              	0.143
+	jolie               	0.125
+Topic number 11 :
+	rapide              	1.686
+	livraison           	1.494
+	envoi               	0.180
+	amazon              	0.094
+	soigner             	0.081
+	temps               	0.079
+	correct             	0.077
+	emballer            	0.077
+	impeccable          	0.073
+	prime               	0.070
+Topic number 12 :
+	texture             	2.262
+	voir                	0.106
+	tenu                	0.079
+	épais               	0.078
+	collant             	0.066
+	facilement          	0.056
+	niveau              	0.052
+	visage              	0.044
+	petit               	0.043
+	utilisation         	0.042
+Topic number 13 :
+	masque              	2.390
+	hydrater            	0.335
+	gamme               	0.215
+	nourrir             	0.180
+	soin                	0.156
+	petit               	0.145
+	meilleur            	0.136
+	souple              	0.127
+	long                	0.100
+	extra               	0.092
+Topic number 14 :
+	facile              	1.686
+	utilisation         	0.808
+	appliquer           	0.743
+	application         	0.306
+	coiffer             	0.123
+	mettre              	0.105
+	noir                	0.089
+	teint               	0.075
+	étaler              	0.074
+	enlever             	0.073
+Topic number 15 :
+	tient               	1.780
+	journée             	1.467
+	teint               	0.591
+	fond                	0.368
+	eau                 	0.304
+	tenu                	0.281
+	fin                 	0.217
+	léger               	0.204
+	dur                 	0.178
+	petit               	0.155
+Topic number 16 :
+	sec                 	2.202
+	vite                	0.140
+	abîmer              	0.124
+	huile               	0.110
+	dommage             	0.101
+	soin                	0.090
+	bémol               	0.089
+	abimés              	0.069
+	briller             	0.067
+	déçue               	0.067
+Topic number 17 :
+	recevoir            	2.154
+	rapidement          	0.619
+	commander           	0.474
+	temps               	0.270
+	commande            	0.258
+	état                	0.216
+	délai               	0.180
+	emballer            	0.179
+	emballage           	0.146
+	colis               	0.128
+Topic number 18 :
+	résultat            	1.715
+	voir                	0.706
+	mettre              	0.489
+	falloir             	0.452
+	marque              	0.439
+	coiffeur            	0.439
+	temps               	0.402
+	acheter             	0.401
+	soin                	0.400
+	long                	0.361
+Topic number 19 :
+	utilise             	1.906
+	années              	0.505
+	an                  	0.422
+	année               	0.295
+	mois                	0.219
+	régulièrement       	0.218
+	passer              	0.120
+	ravie               	0.110
+	semaine             	0.105
+	trouve              	0.088
+Topic number 20 :
+	pratique            	1.855
+	flacon              	0.662
+	pompe               	0.599
+	joli                	0.439
+	dommage             	0.377
+	petit               	0.354
+	grand               	0.190
+	format              	0.157
+	utilisation         	0.151
+	bouteille           	0.145
+Topic number 21 :
+	gras                	1.910
+	nourrir             	0.217
+	mettre              	0.153
+	huile               	0.147
+	sensation           	0.145
+	cire                	0.142
+	vite                	0.120
+	léger               	0.117
+	lisse               	0.073
+	pénétrer            	0.070
+Topic number 22 :
+	contente            	1.948
+	achat               	0.230
+	trouver             	0.158
+	teint               	0.081
+	correspondre        	0.064
+	achète              	0.055
+	acheter             	0.055
+	moment              	0.052
+	commander           	0.049
+	fond                	0.048

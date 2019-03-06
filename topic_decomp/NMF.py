@@ -49,7 +49,7 @@ def get_top_doc(top, documents, topic_index, W):
 if __name__ == '__main__':
 
     # params
-    nb_topics = 19
+    nb_topics = 30
 
     # INPUT files :Please change your file paths
     review_txt_filepath = os.path.join(PATH, "review_txt.txt")
