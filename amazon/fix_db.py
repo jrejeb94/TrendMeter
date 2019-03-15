@@ -52,18 +52,30 @@ def useless_review(input, output):
     df['useless_review'] = useless
     df.to_csv(output)
 
-def remove_semicolon(input, output, col):
+def remove_duplicates(input, output):
+
     df = pd.read_csv(input)
-    size = df.shape[0]
-    for element in df[col]:
-        
+
+    # Notes:
+    # - the `subset=None` means that every column is used 
+    #    to determine if two rows are different; to change that specify
+    #    the columns as an array
+    # - the `inplace=True` means that the data structure is changed and
+    #   the duplicate rows are gone  
+    df.drop_duplicates(subset=None, inplace=True)
+
+    # Reindex the rows
+    df = df.reset_index(drop = True)
+
+    # Write the results to a different file
     df.to_csv(output)
-            
+
 
 if __name__ == '__main__':
-    amazon_path = "~/Documents/KITE/amazon/amazon/spiders/"
+    amazon_path = "~/Documents/KITE/New merged/"
     #fix_price(path + "amazon_product.csv", path + "fixedprice_amazon_product.csv")
-    fix_client_id(path + "fixedprice_amazon_product.csv", path + "fixedbrand_amazon_product.csv")
+    #fix_client_id(path + "fixedprice_amazon_product.csv", path + "fixedbrand_amazon_product.csv")
     #useless_review(path + "amazon_review.csv", path + "fixed_amazon_review.csv")
     #remove_semicolon(path + "fixed_amazon_review.csv", path+"fixedtxt_amazon_review.csv", "review_txt")
     #remove_semicolon(path + "fixedtxt_amazon_review.csv", path + "fixedauthor_amawon_review.csv", "author_id")
+    remove_duplicates(amazon_path + "amazon_product.csv", amazon_path + "cleaned_amazon_product.csv")
