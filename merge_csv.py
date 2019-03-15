@@ -22,7 +22,10 @@ def merge_csv(csv_list, col_list, newname):
         # Append method is enough because each data we have is unique
         print("Merging " + filename + " to dataframe...\n")
         merged_df = merged_df.append(to_merge)
+        merged_df = merged_df[1:]
     
+    merged_df = merged_df.reset_index(drop = True)
+
     merged_df.to_csv(newname)
     return 0
 
