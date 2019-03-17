@@ -83,13 +83,18 @@ def print_pos_tags(tags):
 # LOAD THE CSV FILE AND POS TAG
 import pandas as pd
 import numpy as np
+from spellchecker import SpellChecker
+
 #variables
-data_path= PATH + "/data.csv" #set the path that we are going to read through
+data_path= PATH + "/reviews.csv" #set the path that we are going to read through
 tagged_coms=[] #open up an empty array into which we will store our tagged coms
 
-datas = pd.read_csv(data_path)
+datas = pd.read_csv(data_path, encoding = 'utf8')
 
 tokenizer = RegexpTokenizer(r'''\w'|\w+|[^\w\s]''')
+
+spell = SpellChecker(language='fr')
+
     
 model_path = PATH + "/pos_tagging/stanford-postagger-full-2017-06-09/models/french.tagger"
 jar_path = PATH + "/pos_tagging/stanford-postagger-full-2017-06-09/stanford-postagger.jar"
@@ -101,10 +106,13 @@ for ind in range(numb_com):
     com = datas["review_txt"][ind]
     if type(com)==str:
         text = get_nltk_text(com,tokenizer)
+        for w in text:
+            if w not in spell:
+                w = spell.correction(w)
         tagged_coms.append(pos_tag(text,pos_tagger))
     else:
         tagged_coms.append(np.NaN)
 
 #Add the result to the database (in csv format)
 df = pd.DataFrame({'pos_tagged_coms':tagged_coms})
-df.to_csv(PATH+"/pos_tagging/pos_tagged.csv")
+df.to_csv(PATH+"/pos_tagging/pos_tagged_corrected.csv")
