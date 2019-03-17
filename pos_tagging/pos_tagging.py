@@ -106,9 +106,9 @@ for ind in range(numb_com):
     com = datas["review_txt"][ind]
     if type(com)==str:
         text = get_nltk_text(com,tokenizer)
-        for w in text:
-            if w not in spell:
-                w = spell.correction(w)
+        #for w in text:
+        #    if w not in spell:
+        #        w = spell.correction(w)
         tagged_coms.append(pos_tag(text,pos_tagger))
     else:
         tagged_coms.append(np.NaN)
