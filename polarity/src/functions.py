@@ -10,10 +10,14 @@ plotly.offline.init_notebook_mode()
 
 
 def computeScores(df):
+    print("Computing scores")
+    print(" - Afinn score")
     # score using Afinn
     af = Afinn(language = "fr")
     afinn_scores = [af.score(article) for article in df.Review]
 
+    print(" - Afinn score computed")
+    print(" - Polarity & Objectivity")
     # score using Blobber
     tb = Blobber(pos_tagger=PatternTagger(), analyzer=PatternAnalyzer())
     blobber_scores = [tb(article).sentiment for article in df.Review]
@@ -25,6 +29,7 @@ def computeScores(df):
     df['Polarity']    = polarity
     df['Objectivity'] = objectivity
 
+    print(" - All scores computed")
     return(df)
 
 def quickPlot(x, y, title_x, title_y):
@@ -84,21 +89,32 @@ def splitComments(db, symbol):
     return n_df
 
 def loadTopicsFile(file):
-    df = pd.read_csv(file, sep = ";")
-    df = df.drop(columns=['Unnamed: 0'])
+    print("Loading topic file...")
+    df = pd.read_csv(file, sep = ";", encoding="latin-1")
+    # df = df.drop(columns=['Unnamed: 0'])
     df = df.rename(index=str, columns={"documents" : "Review"})
     for i in range(len(df.columns)-1):
         df = df.rename(index=str, columns={"{}".format(i):"Topic{}".format(i)})
 
+    print(" - File loaded {}".format(file))
     return df.dropna()
 
 def selectTopic(db):
-    df = pd.DataFrame(columns=['Review', 'Topic'])
-    ntopic = len(db.columns) - 1
+    print("Selecting topic for each comment")
+    # df = pd.DataFrame(columns=['Review', 'Topic'])
+    ntopic = len(db.columns) 
+    i = 0
+    dict = {}
     for row in db.iterrows():
         index, data = row
         ranges = data.tolist()[1:ntopic]
         topic = ranges.index(max(ranges))
-        df = df.append({'Review' : data['Review'], 'Topic' : topic}, ignore_index = True)
+        #df = df.append({'Review' : data['Review'], 'Topic' : topic}, ignore_index = True)
+        dict[i] = {'Review' : data['Review'], 'Topic' : topic}
+        i = i+1
+        if i % 50000 == 0:
+            print(" -- Row {} out of {}".format(i, len(db)))
 
+    df = pd.DataFrame.from_dict(dict, "index")
+    print(" - Topics selected")
     return df
